@@ -1,0 +1,93 @@
+/**{
+    margin:0;
+    padding: 0;
+}*/
+
+body{
+    margin:0;
+    padding: 0;
+    font-family:'Nunito', sans-serif  
+}
+
+a{
+     text-decoration: none; /* para não deixar o link sublinhado*/
+     color: inherit;
+}
+
+a:hover{
+    color: white;
+}
+.header{
+    background-color: #C1CFDA;
+    text-align:center;
+    padding: 15px;
+    font-family:'Nunito', sans-serif;
+}
+
+section h3{
+    /*width: 30%;*/
+    min-width: 200px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+h4{
+    margin-bottom: 0; 
+}
+
+.lista{
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+}
+
+.header h2{
+    margin: 0;
+}
+
+.header h1{
+    margin-bottom: 6px;
+}
+
+.imagem-perfil{
+    width: 250px;
+    border-radius:50%; 
+}
+.navegacao-list-item{
+    display: inline;
+    margin: 0 10px 0 10px;/* margin: 0 10px 0 10px;primeiro valor (em vcima e embaixo) e segundo valor (esquerda e direita)*/
+    /*padding: 10px;*/
+    /*valores no sentido horário començando do topo*/ 
+}
+
+.navegacao{
+    margin-top: 50px;
+}
+
+main{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    display: flex;
+    border-bottom: 1px solid #C1CFDA;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+/*section:nth-child(3){
+    border-bottom: none; Para não ter que criar classe e poder chamar um elemento específico }*/
+
+section:last-child{
+    border-bottom: none;
+}
+.footer{
+    background-color: #D3D5D4;
+    padding: 20px;
+    text-align: center;  
+}
+
